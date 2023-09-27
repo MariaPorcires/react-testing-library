@@ -4,6 +4,7 @@ import UserCard from "./UserCard";
 function App() {
   const [users, setUsers] = useState(null);
   const [usersHidden, setUsersHidden] = useState(false);
+  //hej
 
   useEffect(() => {
     // Mock an API call to get user data.
